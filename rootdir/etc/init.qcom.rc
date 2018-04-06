@@ -1247,6 +1247,7 @@ service sshd /system/bin/start-ssh
     priority -5
     user root
     group root
+    oneshot
     disabled
 
 # ro.build.type is currently broken on eng builds
